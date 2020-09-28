@@ -1,0 +1,298 @@
+@media (max-width: 1200px) {
+	.banner .info .block .descr {
+		font-size: 18px;
+	}
+	.nav-pills .nav-link {
+		font-size: 22px;
+	}
+
+	#v-pills-tabContent>.tab-pane .text {
+		font-size: 18px;
+	}
+	.slide {
+		height: 330px;
+	}
+
+	.optical ul.tabs li {
+		font-size: 28px;
+		line-height: 32px;
+	}
+	.slide .text .descr {
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+
+@media (max-width: 992px) {
+	.slide a.btn {
+		padding: 7px;
+		font-size: 18px;
+		line-height: 22px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.slide .text {
+		padding: 15px;
+	}
+
+	.slide .text .descr {
+	    font-size: 12px;
+	    line-height: 14px;
+	}
+
+	.slide .text .location {
+	    font-size: 14px;
+	    margin-bottom: 15px;
+	}
+
+	.slide {
+	    height: auto;
+	}
+
+	.infographics .title {
+		font-size: 22px;
+	}
+
+	.services .grid {
+		grid-gap: 15px;
+	}
+	header .descr {
+		display: none;
+	}
+
+	.infographics .block {
+		margin-bottom: 15px;
+	}
+
+	.tab-pane .nav {
+		margin-bottom: 40px;
+	}
+
+	.reviews .client-info .container-img {
+		width: 80px;
+		height: 80px;
+	}
+
+	.reviews .client-info .container-img img {
+		width: 100%;
+	}
+
+	.optical ul.tabs li {
+	    font-size: 22px;
+	    line-height: 28px;
+	}
+
+	.optical ul.tabs li.active:after,
+	.optical ul.tabs li:hover:after {
+		height: 3px;
+	}
+
+	.optical ul.tabs {
+		margin-bottom: 150px;
+	}
+
+	
+}
+
+@media (max-width: 520px) {
+
+	.optical {
+		padding: 15px 0;
+	}
+
+	.optical a.btn {
+		width: auto;
+		padding: 7px;
+	}
+
+	.optical ul.tabs {
+		margin-bottom: 100px;
+	}
+
+	.optical ul.tabs li:not(:last-of-type) {
+	    margin-right: 15px;
+	}
+
+	.optical ul.tabs li {
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+
+	.header__menu {
+		display: block;
+	}
+
+
+
+	.infographics .title {
+		font-size: 18px;
+		margin-bottom: 60px;
+	}
+
+	.infographics a.btn {
+	    margin-bottom: 60px;
+	}
+
+	.banner .info {
+		justify-content: space-between;
+	}
+
+	.banner .info .block {
+		margin-bottom: 20px;
+	}
+
+	.banner .info .block:not(:last-of-type) {
+		margin-right: 0;
+	}
+
+	header {
+		padding: 7px 0;
+		position: fixed;
+		top: 0;
+		z-index: 999;
+		width: 100%;
+	}
+
+	.header-logo img {
+		width: 50px;
+	}
+
+	header .link .text {
+		display: none;
+	}
+
+	.banner .banner-descr {
+		font-size: 10px;
+		line-height: 12px;
+		margin-bottom: 200px;
+	}
+
+	.nav-menu {
+		display: none;
+	}
+
+	#v-pills-tabContent>.tab-pane {
+		padding: 15px;
+	}
+
+	.services .grid {
+		grid-gap: 10px;
+	}
+
+	.services a.btn-white {
+		margin-bottom: 15px;
+	}
+
+	.services .descr {
+		font-size: 16px;
+	}
+
+	footer {
+		padding-top: 60px;
+	}
+
+	footer li, footer a {
+		font-size: 16px;
+	}
+
+	footer ul {
+		margin-bottom: 30px;
+	}
+
+	footer .copyright {
+		font-size: 12px;
+		line-height: 14px;
+		margin: 30px auto 5px;
+	}
+
+	.clients .title {
+		font-size: 18px;
+	}
+
+	.clients,
+	.order,
+	.work {
+		padding: 50px 0;
+	}
+
+	.order .form-descr {
+		margin-top: 40px;
+	}
+	.order button {
+		width: 100%;
+	}
+
+	.clients .flex .container-img:not(:last-of-type) {
+		margin-right: 15px;
+	}
+
+	.services .title {
+		font-size: 28px;
+		line-height: 32px;
+		margin-bottom: 40px;
+	}
+
+	.services ul.links a {
+		font-size: 22px;
+		line-height: 28px;
+	}
+
+	.banner {
+		padding: 40px 0;
+		height: auto;
+		margin-top: 73px;
+	}
+
+	.banner .arrows {
+		display: none;
+	}
+
+	.banner .info .block .descr {
+	    font-size: 12px;
+	}
+
+	.banner .info .block .num {
+		font-size: 22px;
+		line-height: 28px;
+	}
+
+	.nav-tabs .nav-link {
+		font-size: 18px;
+	}
+
+	.nav-tabs {
+		margin-bottom: 30px;
+	}
+
+	.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+		font-size: 22px;
+		line-height: 31px;
+	}
+	.nav-pills .nav-link {
+		padding: 5px 0;
+	}
+
+	.infographics {
+		padding: 50px 0 0;
+		background: #cbd0d3;
+	}
+	.banner a.btn {
+		animation: none;
+	}
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
+
+

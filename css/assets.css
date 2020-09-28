@@ -1,0 +1,165 @@
+* {
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	color: #fff;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	margin-bottom: 0;
+}
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #FFF;
+	font-family: CeraPro;
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+/* Шрифты */
+
+@font-face {
+ font-family: CeraPro;
+ src: url(fonts/CeraPro-Regular.ttf);
+}
+
+@font-face {
+ font-family: CeraPro-Bold;
+ src: url(fonts/CeraPro-Bold.ttf);
+}
+
+@font-face {
+ font-family: CeraPro-Medium;
+ src: url(fonts/CeraPro-Medium.ttf);
+}
+
+@font-face {
+ font-family: Montserrat;
+ src: url(fonts/Montserrat-Regular.ttf);
+}
+
+
+/* Typography */
+
+h1 {
+
+}
+
+
+.title {
+
+}
+
+.subtitle {
+
+}
+
+p {
+
+}
+
+
+/* Buttons */
+
+a.btn {
+	font-family: CeraPro-Medium;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	text-decoration: none;
+
+	background: #FC1F49;
+	border-radius: 10px;
+	padding: 12px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+a.btn-white {
+	font-family: CeraPro-Medium;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.02em;
+	color: #FC1F49;
+	text-decoration: none;
+
+	border: 1px solid #FC1F49;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 12px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+button[type="submit"] {
+	transition: .2s ease-out;
+}
+
+a.btn:hover,
+button:hover {
+	color: #fff;
+}
+
+a.btn:hover,
+button[type="submit"]:hover  {
+	box-shadow: 0px 5px 15px -5px #FC1F49;
+}
+
+
+a.button.btn-grey {
+
+}
+
+a.button.btn-grey:hover {
+
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+span.medium {
+	font-family: CeraPro-Medium;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+ h1 {
+
+ }
+
+ .title {
+
+ }
+
+ .subtitle {
+
+ }
+
+ p {
+
+ }
+
+ a.button {
+
+ }
+ a.button-send {
+
+}
+
+}
